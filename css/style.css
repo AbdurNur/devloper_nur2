@@ -1,0 +1,66 @@
+/* 1 General */ @import url( ' https://fonts.googleapis.com/css2?family-Poppins:wght@100 ; 200 ; 300 ; 400 ; 500 ; 600 ; 700 ; 800 ; 9008 display - swap ' ); 
+
+* {
+    box-sizing: border-box; 
+    margin :0; 
+    padding :0;
+}
+
+
+:root{ /* Background Color */
+    --primary-color : #FD4766;
+    --secondary-color : #0e1525;
+    --bg-dark-blue : #091020;
+    --bg-white :#fff; 
+    --gray-color : #c6c9d8bf ;
+    --gradient-color :linear-gradient(-224deg, var(--primary-color) 0, #337DFF 100% );
+    --gradient-text : linear-gradient ( 120deg, #1C99FE 20.69%, #7644FF 50.19%, var(--primary-color) 79.69% ); 
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr ='var(--primary-color)', endColorstr ='var (--secondary-color )' , GradientType=1); 
+     /* Text Color */ 
+    --primary-font :'Poppins', sans-serif ; 
+    
+
+}
+
+body{ 
+    font-family :var( --primary-font ) ; 
+    /* background-color :var(--secondary-color);  */
+}
+
+    
+
+section {
+         padding : 50px 0 ;
+}
+ .main-btn {
+    display : inline-block; 
+    border-radius : 50px;
+    transition :all .4s ease-in-out;
+    padding : 10px 27px; 
+    background-color :transparent;
+    border : 2px solid var( --gray-color);
+    color : var(--text-gray);
+    font-weight :500;
+    font-size :14px;
+    text-transform :uppercase;
+    letter-spacing :2px;
+    text-decoration :none;
+}
+.main-btn:hover {
+    background-color :var(--primary-color); 
+    border-color : var(--primary-color);
+     color : var(--text-white);
+}
+.home-imge{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+
+}
+.author{
+    height: 80px;
+    width: 80px;
+   
+
+
+}
